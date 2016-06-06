@@ -61,6 +61,24 @@
          url('../fonts/OpenSansRegular.ttf') format('truetype'),
          url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
 }
+@font-face {
+    font-family: 'OpenSansBoldItalic';
+    src: url('../fonts/OpenSansBoldItalic.eot');
+    src: url('../fonts/OpenSansBoldItalic.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansBoldItalic.woff2') format('woff2'),
+         url('../fonts/OpenSansBoldItalic.woff') format('woff'),
+         url('../fonts/OpenSansBoldItalic.ttf') format('truetype'),
+         url('../fonts/OpenSansBoldItalic.svg#OpenSansBoldItalic') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemiboldItalic';
+    src: url('../fonts/OpenSansSemiboldItalic.eot');
+    src: url('../fonts/OpenSansSemiboldItalic.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansSemiboldItalic.woff2') format('woff2'),
+         url('../fonts/OpenSansSemiboldItalic.woff') format('woff'),
+         url('../fonts/OpenSansSemiboldItalic.ttf') format('truetype'),
+         url('../fonts/OpenSansSemiboldItalic.svg#OpenSansSemiboldItalic') format('svg');
+}
 
 
 .sect1 {
@@ -177,4 +195,41 @@ header {
     background-color: transparent;
     padding: 10px 25px;
     border: 1px solid rgba(254,254,254,0.6);
+}
+
+/*sect2*/
+
+.sect2 {
+    background-image: url(../images/bg_2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 263px;
+}
+
+.text1_sect2 {
+    font: 30px OpenSansBoldItalic, sans-serif;
+    color: #feca16;
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
+
+.text2_sect2 {
+    font: 22px OpenSansItalic, sans-serif;
+    color: #fff;
+}
+
+.text2_sect2 span{
+    font: 22px OpenSansSemiboldItalic, sans-serif;
+    color: #f9ec7c;
+}
+
+.btn1_sect2 {
+    font: 18px OpenSansSemibold, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #F1BC05;
+    border: 0;
+    padding: 11px 30px;
+    margin-top: 20px;
 }
