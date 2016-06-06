@@ -313,3 +313,78 @@ header {
     padding: 15px 35px;
     margin-top: 40px;
 }
+
+/*sect5*/
+
+.sect5 {
+    background-image: url(../images/bg_5.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 1693px;
+    padding-top: 40px;
+}
+
+.text1_sect5 {
+    font: 36px OpenSansBold, sans-serif;
+    color: #4a4d58;
+    text-transform: uppercase;
+}
+
+.figure2 {
+    margin-left: -395px;
+}
+
+.box_sect5 {
+    background-image: url(../images/bg_box_sect5.png);
+    background-repeat: no-repeat;
+    height: 214px;
+    padding: 20px 30px 0 50px;
+}
+
+.t_box_sect5 {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.t1_box_sect5 {
+    font: 18px OpenSansSemibold, sans-serif;
+    color: #ffffff;
+}
+
+.t2_box_sect5 {
+    font: 30px OpenSansBold, sans-serif;
+    color: #ffffff;
+}
+
+.t3_box_sect5 {
+    font: 18px OpenSansBold, sans-serif;
+    color: #ffffff;
+}
+
+.t4_box_sect5 {
+    font: 18px OpenSansItalic, sans-serif;
+    color: #ffffff;
+    margin-top: -12px;
+}
+
+.box2_sect5 {
+    margin-top: 37px;
+}
+.box3_sect5 {
+    margin-top: 40px;
+}
+.box4_sect5 {
+    margin-top: 43px;
+}
+.box5_sect5 {
+    margin-top: 40px;
+}
+.box6_sect5 {
+    margin-top: 40px;
+}
+
+.bg_afterparty {
+    background-image: url(../images/bg_afterparty.png);
+    background-repeat: no-repeat;
+    height: 214px;
+}
