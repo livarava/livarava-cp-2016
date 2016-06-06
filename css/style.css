@@ -232,6 +232,9 @@ header {
     border: 0;
     padding: 11px 30px;
     margin-top: 20px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
 /*sect3*/
@@ -312,6 +315,9 @@ header {
     border: 0;
     padding: 15px 35px;
     margin-top: 40px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
 /*sect5*/
@@ -387,4 +393,44 @@ header {
     background-image: url(../images/bg_afterparty.png);
     background-repeat: no-repeat;
     height: 214px;
+}
+
+/*sect6*/
+
+.sect6 {
+    background-image: url(../images/bg_6.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 200px;
+}
+
+.text1_sect6 {
+    font: 30px OpenSansBoldItalic, sans-serif;
+    color: #feca16;
+    text-transform: uppercase;
+    margin-top: 40px;
+    
+}
+
+.text2_sect6 {
+    font: 22px OpenSansItalic, sans-serif;
+    color: #fff;
+}
+
+.text2_sect6 span{
+    font: 22px OpenSansSemiboldItalic, sans-serif;
+    color: #f9ec7c;
+}
+
+.btn1_sect6 {
+    font: 24px OpenSansRegular, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #FECA16;
+    border: 0;
+    padding: 11px 30px;
+    margin-top: 80px;
+     	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.25);
 }
