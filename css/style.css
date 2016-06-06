@@ -233,3 +233,29 @@ header {
     padding: 11px 30px;
     margin-top: 20px;
 }
+
+/*sect3*/
+
+.sect3 {
+    background-image: url(../images/bg_3.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 413px;
+    padding-top: 120px;
+    
+}
+
+.sect3 .col-md-2 {
+
+}
+
+.trig {
+    display: inline-block;
+}
+
+
+.text_trig {
+    font: 16px OpenSansRegular, sans-serif;
+    color: #4a4d58;
+    margin-top: 10px;
+}
