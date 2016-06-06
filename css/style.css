@@ -434,3 +434,37 @@ header {
     -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
     -moz-box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.25);
 }
+
+/*sect7*/
+
+.sect7 {
+    background-image: url(../images/bg_7.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 1160px;
+    padding-top: 60px;
+    
+}
+
+.text1_sect7 {
+    font: 36px OpenSansBold, sans-serif;
+    color: #3d3d3d;
+    text-transform: uppercase;
+}
+
+.hr1 {
+   border: none;
+    color: #1FB6BB; 
+    background-color: #1FB6BB;
+    height: 4px;
+    width: 40px;
+    margin-top: -10px;
+}
+
+.text_part {
+    margin-top: 120px;
+}
+
+.sponsor {
+    margin-top: 30px;
+}
