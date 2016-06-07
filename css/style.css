@@ -367,7 +367,7 @@ header {
 }
 
 .t2_box_sect5 {
-    font: 30px OpenSansBold, sans-serif;
+    font: 27px OpenSansBold, sans-serif;
     color: #ffffff;
 }
 
@@ -377,9 +377,9 @@ header {
 }
 
 .t4_box_sect5 {
-    font: 18px OpenSansItalic, sans-serif;
+    font: 16px OpenSansItalic, sans-serif;
     color: #ffffff;
-    margin-top: -12px;
+    margin-top: -10px;
 }
 
 .box2_sect5 {
