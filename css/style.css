@@ -79,6 +79,15 @@
          url('../fonts/OpenSansSemiboldItalic.ttf') format('truetype'),
          url('../fonts/OpenSansSemiboldItalic.svg#OpenSansSemiboldItalic') format('svg');
 }
+@font-face {
+    font-family: 'OpenSansLightItalic';
+    src: url('../fonts/OpenSansLightItalic.eot');
+    src: url('../fonts/OpenSansLightItalic.eot') format('embedded-opentype'),
+         url('../fonts/OpenSansLightItalic.woff2') format('woff2'),
+         url('../fonts/OpenSansLightItalic.woff') format('woff'),
+         url('../fonts/OpenSansLightItalic.ttf') format('truetype'),
+         url('../fonts/OpenSansLightItalic.svg#OpenSansLightItalic') format('svg');
+}
 
 
 .sect1 {
@@ -488,4 +497,75 @@ background-image: url(../images/bg_8.jpg);
 .text2_sect8 {
     font: 20px OpenSansRegular, sans-serif;
     color: #626262;
+}
+
+/*sect9*/
+
+.sect9 {
+    background-image: url(../images/bg_9.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 773px;
+    padding-top: 70px;
+}
+
+.text1_sect9 {
+    font: 33px OpenSansBold, sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.text2_sect9 {
+    font: 18px OpenSansLight, sans-serif;
+    color: #ebebeb;
+}
+
+.figure4 {
+    margin-top: 30px;
+}
+
+.form1 {
+    margin-top: 70px;
+    background: rgba(235,235,235,0.06);
+    padding: 60px 100px;
+}
+
+.form1 input {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #CCCCCC;
+    font: 15px OpenSansLightItalic, sans-serif;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.form1 button {
+    background-color: transparent;
+    border: 1px solid #CCCCCC; 
+    font: 16px OpenSansRegular, sans-serif;
+    color: #ffffff;
+        border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.form1 textarea {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #CCCCCC;
+    font: 15px OpenSansLightItalic, sans-serif;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+
+.arrow_r_btn {
+    padding-left: 10px;
+    margin-top: -3px;
 }
