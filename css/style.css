@@ -458,7 +458,6 @@ header {
     background-color: #1FB6BB;
     height: 4px;
     width: 40px;
-    margin-top: -10px;
 }
 
 .text_part {
@@ -467,4 +466,26 @@ header {
 
 .sponsor {
     margin-top: 30px;
+}
+
+/*sect8*/
+
+.sect8 {
+background-image: url(../images/bg_8.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 1044px;
+    padding-top: 50px;
+}
+
+
+.text1_sect8 {
+    font: 36px OpenSansBold, sans-serif;
+    color: #3d3d3d;
+    text-transform: uppercase;
+}
+
+.text2_sect8 {
+    font: 20px OpenSansRegular, sans-serif;
+    color: #626262;
 }
