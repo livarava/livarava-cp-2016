@@ -455,6 +455,8 @@ header {
     
 }
 
+
+
 .sect7 img {
     max-width: 100%;
 }
@@ -488,7 +490,7 @@ background-image: url(../images/bg_8.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     height: 1044px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 
@@ -501,6 +503,70 @@ background-image: url(../images/bg_8.jpg);
 .text2_sect8 {
     font: 20px OpenSansRegular, sans-serif;
     color: #626262;
+}
+
+.bilet1 {
+    background-color: #353A40;
+    padding: 10px;
+    
+}
+
+.text1_bil {
+    font: 30px OpenSansRegular, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text2_bil {
+    font: 60px OpenSansBold, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text2_bil span {
+    font: 24px OpenSansLight, sans-serif;
+    color: #fff;
+}
+
+.text3_bil {
+    font: 18px OpenSansLight, sans-serif;
+    color: #fff;
+}
+
+.btn_bil1 {
+    background-color: #1FB6BB;
+    border: 0;
+    font: 16px OpenSansSemibold, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.bord_bil {
+    border: 1px dashed #fff;
+    padding: 30px;
+}
+
+.btn_bil_all {
+    margin-top: 40px;
+}
+
+.row2_sect8 {
+    margin-top: 100px;
+}
+
+.text1_row3_sect8 {
+     font: 30px OpenSansSemibold, sans-serif;
+    color: #353a40;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.text1_row3_sect8 span {
+    color: #198b8f;
 }
 
 /*sect9*/
