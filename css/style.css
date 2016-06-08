@@ -185,7 +185,7 @@ header {
 .text5 {
     font: 20px OpenSansRegular, sans-serif;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .text5 img {
@@ -356,10 +356,16 @@ header {
 
 .sect5 {
     background-image: url(../images/bg_5.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: top center;
-    height: 1693px;
+    
+    height: auto ;
     padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.box_med_prog {
+    margin-top: 80px;
 }
 
 .text1_sect5 {
