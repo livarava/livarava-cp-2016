@@ -307,6 +307,10 @@ a.link_map:hover {
 
 /*Sect4*/
 
+.sect4 {
+    margin-bottom: 40px;
+}
+
 .box1_sect4 {
     background-image: url(../images/bg_4_1.jpg);
     background-repeat: no-repeat;
