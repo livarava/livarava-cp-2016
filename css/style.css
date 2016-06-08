@@ -169,7 +169,12 @@ header {
     color: #ffffff;
     margin-top: 70px;
 }
-    
+
+.text3_1 span a {
+    font: 14px OpenSansRegular, sans-serif;
+    color: #ffffff;
+    margin-left: 20px;
+}
 
 .text4 {
     font: 36px OpenSansLight, sans-serif;
