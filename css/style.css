@@ -549,31 +549,61 @@ background-image: url(../images/bg_8.jpg);
 }
 
 .bilet1 {
-    background-color: #353A40;
+    background-color: #FEFEFE;
     padding: 10px;
-    
+     	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:  3px 3px 7px rgba(0, 0, 0, 0.75);
 }
 
 .text1_bil {
-    font: 30px OpenSansRegular, sans-serif;
-    color: #fff;
+    font: 23px OpenSansRegular, sans-serif;
+    color: #626262;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .text2_bil {
-    font: 60px OpenSansBold, sans-serif;
-    color: #fff;
+    font: 33px OpenSansBold, sans-serif;
+    color: #626262;
     text-transform: uppercase;
 }
 
+
+
 .text2_bil span {
-    font: 24px OpenSansLight, sans-serif;
-    color: #fff;
+    font: 16px OpenSansLight, sans-serif;
+    color: #626262;
+}
+
+.price_bil {
+    font: 60px OpenSansBold, sans-serif;
+    color: #F91D4E;
+    text-transform: uppercase;
+}
+
+.price_bil span {
+    font: 20px OpenSansLight, sans-serif;
+    color: #F91D4E;
+}
+
+.img_akc {
+    margin-top: -5px;
+}
+
+.box1_bil {
+    padding-left: 80px;
 }
 
 .text3_bil {
     font: 18px OpenSansLight, sans-serif;
     color: #fff;
+}
+
+.text_akc_bil {
+    font: 20px OpenSansRegular, sans-serif;
+    color: #626262;
+    margin-top: 20px;
 }
 
 .btn_bil1 {
@@ -583,13 +613,14 @@ background-image: url(../images/bg_8.jpg);
     color: #fff;
     text-transform: uppercase;
     padding: 10px 20px;
+    margin-top: 20px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
     -moz-box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
 .bord_bil {
-    border: 1px dashed #fff;
+    border: 1px dashed #C1C1C1;
     padding: 30px;
 }
 
@@ -598,7 +629,7 @@ background-image: url(../images/bg_8.jpg);
 }
 
 .row2_sect8 {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .text1_row3_sect8 {
