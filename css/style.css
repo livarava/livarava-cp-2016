@@ -188,6 +188,11 @@ header {
     margin-top: 60px;
 }
 
+a.link_map {
+    font: 20px OpenSansRegular, sans-serif;
+    color: #fff;
+}
+
 a.link_map:hover {
     text-decoration: underline;
     color: #fff;
