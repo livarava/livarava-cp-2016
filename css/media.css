@@ -1,0 +1,16 @@
+@media only screen and (max-width:1368px) {
+	.box1_sect4 {
+    background-image: url(../images/bg_4_1_w656.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.box2_sect4 {
+    background-image: url(../images/bg_4_2_w656.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 30px 0 0 30px;
+}
+}
