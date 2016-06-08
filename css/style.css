@@ -89,6 +89,29 @@
          url('../fonts/OpenSansLightItalic.svg#OpenSansLightItalic') format('svg');
 }
 
+.sticky {
+  position: fixed;
+  top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдЄт до верхнего кра€ элемента. ћожет быть отрицательным числом. ѕрименим, например, при фиксированном сверху меню */
+  z-index: 101;
+  
+  }
+
+.sticky .menu_top  {
+    background: rgba(31,182,187,0.7);
+    padding: 30px 10px 20px 0;
+    margin-top: 0;
+}
+
+.sticky .menu_top a  {
+
+    color: #3d3d3d;
+}
+
+.sticky .menu_top li a:hover {
+    padding-bottom: 17px;
+     border-bottom: 3px solid #fff;
+}
+
 
 .sect1 {
     background-image: url(../images/bg_1.jpg);
@@ -98,8 +121,9 @@
 }
 
 header {
-    height: 100px;
+    height: 120px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
+
 }
 
 .logotip {
