@@ -265,9 +265,19 @@ header {
     background-image: url(../images/bg_3.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    height: 413px;
-    padding-top: 120px;
-    
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.row2_sect3 {
+    margin-top: 30px;
+}
+
+.text1_sect3 {
+    font: 36px OpenSansBold, sans-serif;
+    color: #3d3d3d;
+    text-transform: uppercase;
 }
 
 .sect3 .col-md-2 {
@@ -290,14 +300,14 @@ header {
 .box1_sect4 {
     background-image: url(../images/bg_4_1.jpg);
     background-repeat: no-repeat;
-    
+    background-size: cover;
     height: 669px;
 }
 
 .box2_sect4 {
     background-image: url(../images/bg_4_2.jpg);
     background-repeat: no-repeat;
-    
+    background-size: cover;
     height: 669px;
     padding: 120px 0 0 30px;
 }
