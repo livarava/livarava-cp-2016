@@ -188,6 +188,11 @@ header {
     margin-top: 60px;
 }
 
+a.link_map:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
 .text5 img {
     padding-right: 17px;
 }
