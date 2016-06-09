@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>LivaRava CP: Прокачай себе та вийди на новий рівень бізнесу</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/plugin.css">
-
+    <link rel="stylesheet" href="css/style-default.min.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>livarava-cp</title>
 </head>
 <body data-scroll-animation="true">
 <section class="sect1" id="sect1">
     <header>
         <div class="container-fluid">
+            &nbsp;
+        </div>
+        <div class="container-fluid" >
             <div class="row">
                 <div class="col-md-3">
                     <img class="logotip" src="images/logotip.png"/>
                 </div>
-                <div class="col-md-7">
-                    <ul class="menu_top">
-                        <li><a href="#">Про подію</a></li>
-                        <li><a href="#">Спікери</a></li>
-                        <li><a href="#">Програма</a></li>
-                        <li><a href="#">Спонсори</a></li>
-                        <li><a href="#">Партнери</a></li>
-                        <li><a href="#">Квитки</a></li>
+                <div class="col-md-7" id="aside1">
+                    <ul class="menu_top" >
+                        <li><a href="#sect4">Про подію</a></li>
+                        <!-- <li><a href="#">Спікери</a></li> -->
+                        <li><a href="#progr">Програма</a></li>
+                        <li><a href="#sect7">Спонсори</a></li>
+                        <li><a href="#partner">Партнери</a></li>
+                        <li><a href="#sect8">Квитки</a></li>
+                        <li><a href="#sect9">Зв'язок</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2">
@@ -68,6 +72,79 @@
                     події</p>
                 <a href="#" class="btn btn-default btn1_sect2">зареєструватися</a>
             </div>
+            <div class="col-md-6">
+            
+                <!--Circular countdown starts -->
+                                <div class="lz-countdown-main box_timer1">
+                                    <div class="row">
+                                        <div class="lz-countdown-container">
+                                            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
+                                                <div class="row">
+                                                    <div class="lz-circular-countdown-container" id="cbxcountdown" data-year="2016" data-month="12" data-day="31">
+
+                                                        <!-- days -->
+                                                        <div class="lz-circular-clock-item lz-circular-clock-days lz-circular-countdown-time-value col-xs-3">
+                                                            <div class="lz-circular-wrap   wow zoomIn " data-wow-delay=".2s">
+                                                                <div class="lz-circular-inner">
+                                                                    <div id="lz-circular-canvas_days" class="lz-circular-clock-canvas"></div>
+                                                                    <div class="lz-circular-text">
+                                                                        <p class="lz-circular-val">0</p>
+                                                                        <p class="lz-circular-type-days lz-circular-type-time">Днів</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- hours -->
+
+                                                        <div class="lz-circular-clock-item lz-circular-clock-hours lz-circular-countdown-time-value col-xs-3">
+                                                            <div class="lz-circular-wrap  wow zoomIn " data-wow-delay=".4s">
+                                                                <div class="lz-circular-inner">
+                                                                    <div id="lz-circular-canvas_hours" class="lz-circular-clock-canvas"></div>
+                                                                    <div class="lz-circular-text">
+                                                                        <p class="lz-circular-val">0</p>
+                                                                        <p class="lz-circular-type-hours lz-circular-type-time">Годин</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- minutes -->
+                                                        <div class="lz-circular-clock-item lz-circular-clock-minutes lz-circular-countdown-time-value col-xs-3">
+                                                            <div class="lz-circular-wrap  wow zoomIn " data-wow-delay=".6s">
+                                                                <div class="lz-circular-inner">
+                                                                    <div id="lz-circular-canvas_minutes" class="lz-circular-clock-canvas"></div>
+                                                                    <div class="lz-circular-text">
+                                                                        <p class="lz-circular-val">0</p>
+                                                                        <p class="lz-circular-type-minutes lz-circular-type-time">Хвилин</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- seconds -->
+                                                        <div class="lz-circular-clock-item lz-circular-clock-seconds lz-circular-countdown-time-value col-xs-3">
+                                                            <div class="lz-circular-wrap  wow zoomIn " data-wow-delay=".8s">
+                                                                <div class="lz-circular-inner">
+                                                                    <div id="lz-circular-canvas_seconds" class="lz-circular-clock-canvas"></div>
+                                                                    <div class="lz-circular-text">
+                                                                        <p class="lz-circular-val">0</p>
+                                                                        <p class="lz-circular-type-seconds lz-circular-type-time">Секунд</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Circular countdown ends -->
+                                <p class="text_bot_tim text-center">До кінця акції залишилося</p>
+            
+            </div>
         </div>
     </div>
 
@@ -104,7 +181,7 @@
         </div>
     </div>
 </section>
-<section class="sect4">
+<section class="sect4" id="sect4">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6 box1_sect4">
@@ -132,9 +209,24 @@
                 <img class="figure2" src="images/figure2.png"/>
                 <div class="media box_med_prog">
                     <img class="pull-left" src="images/figure3.png"/>
+
                     <div class="col-md-11">
                         <div class="media-body">
                             <div class="box_sect5">
+                                <!--<img class="pull-left" src="images/photo5.png"/>-->
+                                <div class="t_box_sect5 media-body">
+                                    <p class="t1_box_sect5">17:30 - 18:30</p>
+                                    <p class="t2_box_sect5">Реєстрація</p>
+                                    <!--<p class="t3_box_sect5">Артем Карявка, 33 роки</p>-->
+                                    <!--<p class="t4_box_sect5">Засновник Livarava</p>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-11">
+                        <div class="media-body">
+                            <div class="box_sect5 box2_sect5">
                                 <img class="pull-left" src="images/photo1.png"/>
                                 <div class="t_box_sect5 media-body">
                                     <p class="t1_box_sect5">18:30 - 18:45</p>
@@ -146,9 +238,10 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-11">
                         <div class="media-body">
-                            <div class="box_sect5 box2_sect5">
+                            <div class="box_sect5 box3_sect5">
                                 <img class="pull-left" src="images/photo2.png"/>
                                 <div class="t_box_sect5 media-body">
                                     <p class="t1_box_sect5">18:45 - 19:15</p>
@@ -162,7 +255,7 @@
 
                     <div class="col-md-11">
                         <div class="media-body">
-                            <div class="box_sect5 box3_sect5">
+                            <div class="box_sect5 box4_sect5">
                                 <img class="pull-left" src="images/photo3.png"/>
                                 <div class="t_box_sect5 media-body">
                                     <p class="t1_box_sect5">19:15 - 19:45</p>
@@ -177,7 +270,7 @@
                     </div>
                     <div class="col-md-11">
                         <div class="media-body">
-                            <div class="box_sect5 box4_sect5">
+                            <div class="box_sect5 box5_sect5">
                                 <img class="pull-left" src="images/photo4.png"/>
                                 <div class="t_box_sect5 media-body">
                                     <p class="t1_box_sect5">19:45 - 20:00</p>
@@ -190,19 +283,21 @@
                             </div>
                         </div>
                     </div>
+
                     <!--<div class="col-md-11">-->
-                        <!--<div class="media-body">-->
-                            <!--<div class="box_sect5 box5_sect5">-->
-                                <!--<img class="pull-left" src="images/photo5.png"/>-->
-                                <!--<div class="t_box_sect5 media-body">-->
-                                    <!--<p class="t1_box_sect5">20:00 - 20:15</p>-->
-                                    <!--<p class="t2_box_sect5">Закриття конференції</p>-->
-                                    <!--<p class="t3_box_sect5">Артем Карявка, 33 роки</p>-->
-                                    <!--<p class="t4_box_sect5">Засновник Livarava</p>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
+                    <!--<div class="media-body">-->
+                    <!--<div class="box_sect5 box5_sect5">-->
+                    <!--<img class="pull-left" src="images/photo5.png"/>-->
+                    <!--<div class="t_box_sect5 media-body">-->
+                    <!--<p class="t1_box_sect5">20:00 - 20:15</p>-->
+                    <!--<p class="t2_box_sect5">Закриття конференції</p>-->
+                    <!--<p class="t3_box_sect5">Артем Карявка, 33 роки</p>-->
+                    <!--<p class="t4_box_sect5">Засновник Livarava</p>-->
                     <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+
                     <div class="col-md-11">
                         <div class="media-body">
                             <div class="bg_afterparty box6_sect5">
@@ -232,7 +327,7 @@
         </div>
     </div>
 </section>
-<section class="sect7">
+<section class="sect7" id="sect7">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -241,7 +336,7 @@
                 <img class="sponsor" src="images/ukrsibbank.jpg"/>
             </div>
 
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center" id="partner">
                 <p class="text1_sect7 text_part">Партнери</p>
                 <hr class="hr1"/>
                 <img class="sponsor" src="images/partner.jpg"/>
@@ -249,7 +344,7 @@
         </div>
     </div>
 </section>
-<section class="sect8">
+<section class="sect8" id="sect8">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -260,26 +355,95 @@
             </div>
         </div>
         <div class="row row2_sect8">
-            <div class="col-md-6">
-                <div class="bilet1 text-center">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="bilet1">
                     <div class="bord_bil">
-                        <p class="text1_bil">Вартість квитка:</p>
-                        <p class="text2_bil">300 <span>грн.</span></p>
-                        <p class="text3_bil">з 20-го червня</p>
-                        <a class="btn btn-default btn_bil1"> зареєструватися</a>
+                        <div class="row">
+                        <div class="col-md-6 box1_bil">
+                            <p class="text1_bil">Вартість квитка:</p>
+                            <p class="text2_bil"><strike>300 <span>грн.</span></strike></p>
+                            <p class="price_bil"><img class="img_akc" src="images/img_akc.png"/> 200<span>грн.</span></p>
+                        </div>
+                        <div class="col-md-6 text-center    ">
+                            <p class="text_akc_bil">До кінця акції залишилося:</p>
+                            
+                            <!--Circular countdown starts -->
+                                <div class="lz-countdown-main box_timer2">
+                                    <div class="row">
+                                        <div class="lz-countdown-container">
+                                            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1">
+                                                <div class="row">
+                                                    <div class="lz-circular-countdown-container" id="cbxcountdown" data-year="2016" data-month="12" data-day="31">
+
+                                                        <!-- days -->
+                                                        <div class="lz-circular-clock-item lz-circular-clock-days lz-circular-countdown-time-value col-xs-3">
+                                                            <div class="lz-circular-wrap   wow zoomIn " data-wow-delay=".2s">
+                                                                <div class="lz-circular-inner">
+                                                                    <div id="lz-circular-canvas_days" class="lz-circular-clock-canvas"></div>
+                                                                    <div class="lz-circular-text">
+                                                                        <p class="lz-circular-val">0</p>
+                                                                        <p class="lz-circular-type-days lz-circular-type-time">Днів</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- hours -->
+
+                                                        <div class="lz-circular-clock-item lz-circular-clock-hours lz-circular-countdown-time-value col-xs-3">
+                                                            <div class="lz-circular-wrap  wow zoomIn " data-wow-delay=".4s">
+                                                                <div class="lz-circular-inner">
+                                                                    <div id="lz-circular-canvas_hours" class="lz-circular-clock-canvas"></div>
+                                                                    <div class="lz-circular-text">
+                                                                        <p class="lz-circular-val">0</p>
+                                                                        <p class="lz-circular-type-hours lz-circular-type-time">Годин</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- minutes -->
+                                                        <div class="lz-circular-clock-item lz-circular-clock-minutes lz-circular-countdown-time-value col-xs-3">
+                                                            <div class="lz-circular-wrap  wow zoomIn " data-wow-delay=".6s">
+                                                                <div class="lz-circular-inner">
+                                                                    <div id="lz-circular-canvas_minutes" class="lz-circular-clock-canvas"></div>
+                                                                    <div class="lz-circular-text">
+                                                                        <p class="lz-circular-val">0</p>
+                                                                        <p class="lz-circular-type-minutes lz-circular-type-time">Хвилин</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- seconds -->
+                                                        <div class="lz-circular-clock-item lz-circular-clock-seconds lz-circular-countdown-time-value col-xs-3">
+                                                            <div class="lz-circular-wrap  wow zoomIn " data-wow-delay=".8s">
+                                                                <div class="lz-circular-inner">
+                                                                    <div id="lz-circular-canvas_seconds" class="lz-circular-clock-canvas"></div>
+                                                                    <div class="lz-circular-text">
+                                                                        <p class="lz-circular-val">0</p>
+                                                                        <p class="lz-circular-type-seconds lz-circular-type-time">Секунд</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Circular countdown ends -->
+                            
+                            
+                             <a class="btn btn-default btn_bil1"> зареєструватися</a>
+                        </div>
+                       </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="bilet1 text-center">
-                    <div class="bord_bil">
-                        <p class="text1_bil">Вартість квитка:</p>
-                        <p class="text2_bil">200 <span>грн.</span></p>
-                        <p class="text3_bil">акція діє до 20-го червня</p>
-                        <a class="btn btn-default btn_bil1"> зареєструватися</a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
         <div class="row row3_sect8">
             <div class="col-md-12 text-center">
@@ -290,7 +454,7 @@
         </div>
     </div>
 </section>
-<section class="sect9">
+<section class="sect9" id="sect9">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -343,8 +507,9 @@
                 <!--<p class="text2_sect10">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat.</p> -->
                 <img class="img_coworking" src="images/img_coworking.png"/>
-                <a href="http://coworking.livarava.com" class="btn btn-default btn1_sect10">Дізнатися більше <img class="arrow2_r_btn"
-                                                                             src="images/arrow2_r_btn.png"/></a>
+                <a href="http://coworking.livarava.com" target="_blank" class="btn btn-default btn1_sect10">Дізнатися
+                    більше <img class="arrow2_r_btn"
+                                src="images/arrow2_r_btn.png"/></a>
 
             </div>
         </div>
@@ -428,13 +593,20 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/wow.min.js"></script>
+
 <script src="js/animation.js"></script>
-<script src="js/main.js"></script>
+
 <script src="js/velocity.min.js"></script>
 <script src="js/velocity.ui.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="js/kinetic-v5.1.0.min.js"></script>
+<script src="js/jquery.final-countdown.js"></script>
+<script src="js/cbscript.js"></script>
 <script>
     var $page = $('html, body');
     $('a[href*="#"]').click(function () {
@@ -444,5 +616,57 @@
         return false;
     });
 </script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-3675054-40', 'auto');
+    ga('send', 'pageview');
+</script>
+<script>
+    (function () {  // анонимная функция (function(){ })(), чтобы переменные "a" и "b" не стали глобальными
+        var a = document.querySelector('#aside1'), b = null;  // селектор блока, который нужно закрепить
+        window.addEventListener('scroll', Ascroll, false);
+        document.body.addEventListener('scroll', Ascroll, false);  // если у html и body высота равна 100%
+        function Ascroll() {
+            if (b == null) {  // добавить потомка-обёртку, чтобы убрать зависимость с соседями
+                var Sa = getComputedStyle(a, ''), s = '';
+                for (var i = 0; i < Sa.length; i++) {  // перечислить стили CSS, которые нужно скопировать с родителя
+                    if (Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
+                        s += Sa[i] + ': ' + Sa.getPropertyValue(Sa[i]) + '; '
+                    }
+                }
+                b = document.createElement('div');  // создать потомка
+                b.style.cssText = s + ' box-sizing: border-box; width: ' + a.offsetWidth + 'px;';
+                a.insertBefore(b, a.firstChild);  // поместить потомка в цепляющийся блок первым
+                var l = a.childNodes.length;
+                for (var i = 1; i < l; i++) {  // переместить во вновь созданного потомка всех остальных потомков (итого: создан потомок-обёртка, внутри которого по прежнему работают скрипты)
+                    b.appendChild(a.childNodes[1]);
+                }
+                a.style.height = b.getBoundingClientRect().height + 'px';  // если под скользящим элементом есть другие блоки, можно своё значение
+                a.style.padding = '0';
+                a.style.border = '';  // если элементу присвоен padding или border
+            }
+            if (a.getBoundingClientRect().top <= 0) { // elem.getBoundingClientRect() возвращает в px координаты элемента относительно верхнего левого угла области просмотра окна браузера
+                b.className = 'sticky';
+            } else {
+                b.className = '';
+            }
+            window.addEventListener('resize', function () {
+                a.children[0].style.width = getComputedStyle(a, '').width
+            }, false);  // если изменить размер окна браузера, измениться ширина элемента
+        }
+    })()
+</script>
+<script src="js/main.js"></script>
 </body>
 </html>

@@ -89,6 +89,29 @@
          url('../fonts/OpenSansLightItalic.svg#OpenSansLightItalic') format('svg');
 }
 
+.sticky {
+  position: fixed;
+  top: 0px;  /* если ноль заменить на число (и в скрипте тоже), то блок будет прилипать до того, как верхний край окна браузера дойдЄт до верхнего кра€ элемента. ћожет быть отрицательным числом. ѕрименим, например, при фиксированном сверху меню */
+  z-index: 101;
+  
+  }
+
+.sticky .menu_top  {
+    background: rgba(31,182,187,0.7);
+    padding: 30px 10px 20px 0;
+    margin-top: 0;
+}
+
+.sticky .menu_top a  {
+
+    color: #3d3d3d;
+}
+
+.sticky .menu_top li a:hover {
+    padding-bottom: 17px;
+     border-bottom: 3px solid #fff;
+}
+
 
 .sect1 {
     background-image: url(../images/bg_1.jpg);
@@ -98,8 +121,9 @@
 }
 
 header {
-    height: 100px;
+    height: 120px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
+
 }
 
 .logotip {
@@ -231,6 +255,22 @@ a.link_map:hover {
 
 /*sect2*/
 
+.box_timer1 {
+    margin-top: 40px;
+}
+
+.box_timer1 .col-xs-3 {
+    padding: 5px;
+}
+
+
+
+.text_bot_tim {
+    font: 16px OpenSansRegular, sans-serif;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
 .sect2 {
     background-image: url(../images/bg_2.jpg);
     background-repeat: no-repeat;
@@ -312,7 +352,7 @@ a.link_map:hover {
 }
 
 .box1_sect4 {
-    background-image: url(../images/bg_4_1.jpg);
+    background-image: url(../images/bg_41_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 669px;
@@ -549,31 +589,61 @@ background-image: url(../images/bg_8.jpg);
 }
 
 .bilet1 {
-    background-color: #353A40;
+    background-color: #FEFEFE;
     padding: 10px;
-    
+     	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:  3px 3px 7px rgba(0, 0, 0, 0.75);
 }
 
 .text1_bil {
-    font: 30px OpenSansRegular, sans-serif;
-    color: #fff;
+    font: 23px OpenSansRegular, sans-serif;
+    color: #626262;
     text-transform: uppercase;
+    margin-top: 20px;
 }
 
 .text2_bil {
-    font: 60px OpenSansBold, sans-serif;
-    color: #fff;
+    font: 33px OpenSansBold, sans-serif;
+    color: #626262;
     text-transform: uppercase;
 }
 
+
+
 .text2_bil span {
-    font: 24px OpenSansLight, sans-serif;
-    color: #fff;
+    font: 16px OpenSansLight, sans-serif;
+    color: #626262;
+}
+
+.price_bil {
+    font: 60px OpenSansBold, sans-serif;
+    color: #F91D4E;
+    text-transform: uppercase;
+}
+
+.price_bil span {
+    font: 20px OpenSansLight, sans-serif;
+    color: #F91D4E;
+}
+
+.img_akc {
+    margin-top: -5px;
+}
+
+.box1_bil {
+    padding-left: 80px;
 }
 
 .text3_bil {
     font: 18px OpenSansLight, sans-serif;
     color: #fff;
+}
+
+.text_akc_bil {
+    font: 20px OpenSansRegular, sans-serif;
+    color: #626262;
+    margin-top: 20px;
 }
 
 .btn_bil1 {
@@ -583,13 +653,14 @@ background-image: url(../images/bg_8.jpg);
     color: #fff;
     text-transform: uppercase;
     padding: 10px 20px;
+    margin-top: 40px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
     -moz-box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.25);
 }
 
 .bord_bil {
-    border: 1px dashed #fff;
+    border: 1px dashed #C1C1C1;
     padding: 30px;
 }
 
@@ -598,7 +669,7 @@ background-image: url(../images/bg_8.jpg);
 }
 
 .row2_sect8 {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .text1_row3_sect8 {
