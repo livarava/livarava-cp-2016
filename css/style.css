@@ -460,6 +460,7 @@ a.link_map:hover {
 .t2_box_sect5 {
     font: 27px OpenSansBold, sans-serif;
     color: #ffffff;
+    padding-bottom: 10px;
 }
 
 .t3_box_sect5 {
@@ -1055,4 +1056,195 @@ footer {
     margin: 20px auto;
     max-width: 800px;
     width: 100%;
+}
+
+
+/*============================================================================
+  >> 06. SECTION: Schedule
+  ============================================================================
+ */
+.section-schedule {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #FAFAFA;
+}
+.schedule-item-block {
+  background: url('../img/progress-bg.png') repeat-x center center fixed #3e4651;
+  min-height: 200px;
+  overflow: hidden;
+  display: none;
+}
+@media (min-width: 768px) {
+  .schedule-item-block {
+    display: block;
+  }
+}
+.schedule-item-block-top {
+  min-height: 80px;
+}
+.schedule-item-bar {
+  background: url('../img/progress-point3.png') no-repeat center center;
+  min-height: 200px;
+  display: none;
+}
+@media (min-width: 768px) {
+  .schedule-item-bar {
+    display: block;
+  }
+}
+.schedule-item-bar-top {
+  background: url('../img/progress-point-top.png') no-repeat center top;
+  min-height: 80px;
+}
+.schedule-item-header .schedule-item-bar {
+  background: url('../img/progress-point-top.png') no-repeat center top;
+  min-height: 80px;
+}
+.schedule-item-header .schedule-item-block-top {
+  min-height: 80px;
+}
+.schedule-item-footer .schedule-item-bar {
+  background: url('../img/progress-point-bottom.png') no-repeat center bottom;
+  min-height: 80px;
+}
+.schedule-item-footer .schedule-item-block {
+  min-height: 80px;
+}
+.schedule-item-content {
+  padding: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: url('../img/bgmask3.png') no-repeat center center #13BDC6;
+  min-height: 160px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  position: relative;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .schedule-item-content {
+    margin-top: 20px;
+  }
+}
+.schedule-item-content p {
+  color: #ffffff;
+}
+.schedule-item-content:before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #13BDC6;
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  margin-top: -5px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  display: none;
+}
+@media (min-width: 768px) {
+  .schedule-item-content:before {
+    display: block;
+  }
+}
+.schedule-item-date {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  .schedule-item-date {
+    margin-top: 0 !important;
+  }
+}
+.schedule-item-title {
+  margin-top: 0 !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #ffffff;
+}
+.schedule-tab-links-wrapper {
+  position: relative;
+}
+.schedule-tab-links {
+  margin-left: 0;
+  padding-left: 0;
+}
+@media (min-width: 768px) {
+  .schedule-tab-links {
+    position: absolute;
+    top: 6px;
+  }
+}
+.schedule-tab-links li {
+  display: block;
+  float: left;
+  margin-right: -1px;
+}
+.schedule-tab-links li a {
+  display: block;
+  border: 1px solid #3e4651;
+  padding: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #3e4651;
+  width: 140px;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .schedule-tab-links li a {
+    width: auto;
+    font-size: 16px;
+  }
+}
+.schedule-tab-links li a:hover {
+  text-decoration: none;
+  background: url('../img/bgmask-btn.png') no-repeat top left #3e4651;
+  color: #ffffff;
+}
+.schedule-tab-links li.active a {
+  background: url('../img/bgmask-btn.png') no-repeat top left #3e4651;
+  border-color: #3e4651;
+  color: #ffffff;
+  text-decoration: none;
+}
+.schedule-item-img {
+  text-align: center;
+  width: 100%;
+}
+@media (min-width:992px) {
+  .schedule-item-img {
+    margin-right: -10px;
+    margin-bottom: 0;
+  }
+}
+.schedule-item-img img {
+  width: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  border: 3px solid #eee;
+}
+.schedule-item-infos {
+  padding-top: 10px;
+}
+
+.block_afterparty {
+    background-image: url(../images/bg2_after.jpg);
+    background-repeat: no-repeat;
+   
+    height: 214px;
+}
+
+.block_afterparty img {
+    max-width: 100%;
 }
