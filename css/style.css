@@ -255,6 +255,22 @@ a.link_map:hover {
 
 /*sect2*/
 
+.box_timer1 {
+    margin-top: 40px;
+}
+
+.box_timer1 .col-xs-3 {
+    padding: 5px;
+}
+
+
+
+.text_bot_tim {
+    font: 16px OpenSansRegular, sans-serif;
+    color: #ffffff;
+    margin-top: 25px;
+}
+
 .sect2 {
     background-image: url(../images/bg_2.jpg);
     background-repeat: no-repeat;
@@ -637,7 +653,7 @@ background-image: url(../images/bg_8.jpg);
     color: #fff;
     text-transform: uppercase;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
     -moz-box-shadow:  1px 2px 3px rgba(0, 0, 0, 0.25);
