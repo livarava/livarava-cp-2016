@@ -575,6 +575,7 @@ a.link_map:hover {
 
 .sponsor {
     margin-top: 30px;
+    width: 500px;
 }
 
 .row1_part {
@@ -956,9 +957,9 @@ a.link_map:hover {
 }
 
 .btn_up {
-    position: absolute;
+    position: fixed;
     right: 30px;
-    top: 27px;
+    bottom: 40px;
 }
 
 /*Footer*/
