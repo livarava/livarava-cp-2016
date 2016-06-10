@@ -1087,15 +1087,11 @@
 </script>
 <script src="js/main.js"></script>
 <script>
-    jQuery(function ($) {
-        $(document).ready(function () {
-            var $btnTicket = $(".btn-ticket");
+    $(document).ready(function () {
+        var $btnTicket = $(".btn-ticket");
 
-            $btnTicket.click(function () {
-                event.stopPropagation();
-                window.open("https://www.livarava.com/event/119211/register/", "_blank")
-            });
-
+        $btnTicket.click(function () {
+            window.open("https://www.livarava.com/event/119211/register/", "_blank")
         });
     });
 </script>
