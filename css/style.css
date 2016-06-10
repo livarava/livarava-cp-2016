@@ -546,9 +546,9 @@ a.link_map:hover {
     background-image: url(../images/bg_7.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    height: 1160px;
-    padding-top: 60px;
-
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .sect7 img {
@@ -570,11 +570,12 @@ a.link_map:hover {
 }
 
 .text_part {
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 .sponsor {
     margin-top: 30px;
+    width: 500px;
 }
 
 .row1_part {
@@ -848,36 +849,21 @@ a.link_map:hover {
 
 }
 
-.box2_bot {
-    display: inline-block;
-    height: 60px;
-    border-right: 1px dashed rgba(255, 255, 255, 0.2);
-    padding: 0 15px;
-    max-width: 170px;
-    float: left;
-    margin-top: 20px;
-}
+
 
 .text1_sect11 {
     font: 12px OpenSansLight, sans-serif;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
+    
 
-}
-
-.box3_bot {
-    display: inline-block;
-    height: 60px;
-
-    padding: 0 5px;
-    float: left;
-    margin-top: 20px;
-    padding-right: 20px;
 }
 
 .text2_sect11 {
     font: 14px OpenSansLight, sans-serif;
     color: rgba(255, 255, 255, 0.5);
+    margin-top: 25px;
+    margin-left: 20px;
 }
 
 .text2_sect11 span {
@@ -895,7 +881,7 @@ a.link_map:hover {
     display: inline-block;
     height: 60px;
     border-right: 1px dashed rgba(255, 255, 255, 0.2);
-    border-left: 1px dashed rgba(255, 255, 255, 0.2);
+    
     padding: 0 15px;
     margin-left: -30px;
     float: left;
@@ -906,8 +892,12 @@ a.link_map:hover {
     font: 12px OpenSansRegular, sans-serif;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
-    margin-top: 20px;
-
+    margin-top: 17px;
+    margin-left: 20px;
+    padding: 25px 20px 0 20px;
+    height: 60px;
+    border-right: 1px dashed rgba(255, 255, 255, 0.2);
+    border-left: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
 .text3_sect11 span {
@@ -952,19 +942,24 @@ a.link_map:hover {
     font: 12px OpenSansLight, sans-serif;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.logo_livarava {
+    padding-left: 20px;
 }
 
 .box6_bot {
 
     padding: 20px 15px;
-    float: right;
+   
     margin-right: 70px;
 }
 
 .btn_up {
-    position: absolute;
+    position: fixed;
     right: 30px;
-    top: 27px;
+    bottom: 40px;
 }
 
 /*Footer*/
