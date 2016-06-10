@@ -546,9 +546,9 @@ a.link_map:hover {
     background-image: url(../images/bg_7.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    height: 1160px;
-    padding-top: 60px;
-
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .sect7 img {
@@ -570,11 +570,12 @@ a.link_map:hover {
 }
 
 .text_part {
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 .sponsor {
     margin-top: 30px;
+    width: 500px;
 }
 
 .row1_part {
@@ -956,9 +957,9 @@ a.link_map:hover {
 }
 
 .btn_up {
-    position: absolute;
+    position: fixed;
     right: 30px;
-    top: 27px;
+    bottom: 40px;
 }
 
 /*Footer*/
