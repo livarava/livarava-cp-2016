@@ -63,15 +63,20 @@ margin-top: -10px;
 
 @media (min-width:768px) and (max-width:991px) {
 .lz-circular-text {
-top:35%
+top:13%
 }
 
 .lz-circular-text .lz-circular-val {
-font-size:35px
+font-size:25px
 }
 
 .lz-circular-text .lz-circular-type-time {
-font-size:15px
+font-size:12px
+}
+
+.box_timer2 .lz-circular-text .lz-circular-val {
+font-size:25px;
+
 }
 }
 
@@ -119,6 +124,18 @@ font-size:10px
 height:50px
 }
 
+.box_timer2 .lz-circular-text .lz-circular-val {
+font-size:20px;
+margin-top: 20px;
+
+}
+
+.box_timer2 .lz-circular-text .lz-circular-type-time {
+font-size:11px;
+color: #ccc;
+margin-top: -10px;
+}
+
 .lz-countdown-container .lz-cd-number .digit {
 font-size:25px
 }
@@ -133,6 +150,19 @@ font-size:20px
 
 .lz-circular-text .lz-circular-type-time {
 font-size:12px
+}
+
+.text1_sect4 {
+    font: 25px OpenSansBold, sans-serif;
+}
+
+.text2_sect4 {
+    font: 17px OpenSansBold, sans-serif;
+
+}
+
+.text3_sect4 {
+    font: 15px OpenSansRegular, sans-serif;
 }
 }
 
