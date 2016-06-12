@@ -577,6 +577,10 @@ a.link_map {
 	   display:block;
 	}
     
+    .text4_sect11 {
+    color: rgba(255, 255, 255, 0.8);
+}
+    
     .text3_sect11 {
     font: 12px OpenSansRegular, sans-serif;
     color: rgba(255, 255, 255, 0.8);
@@ -591,7 +595,7 @@ a.link_map {
 
 .text2_sect11 {
     font: 14px OpenSansLight, sans-serif;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.8);
     margin-top: 25px;
     margin-left: 0;
 }
