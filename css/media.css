@@ -357,6 +357,8 @@ a.link_map {
     width: 130px;
 }
 
+
+
 }
 
 @media only screen and (max-width:768px) {
@@ -488,6 +490,15 @@ a.link_map {
 #partner .col-xs-3 {
     margin: 0;
     padding: 0;
+}
+
+.inf_partner .col-xs-3 {
+    margin: 0;
+    padding: 0;
+}
+
+.inf_partner .col-xs-offset-3 {
+    margin-left: 25%;
 }
 
 
@@ -729,7 +740,7 @@ a.link_map {
     display: block;
 }
 
-}
+
 
 @media only screen and (max-width:430px) {
 	

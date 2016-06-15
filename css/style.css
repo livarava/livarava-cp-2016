@@ -599,10 +599,20 @@ a.link_map:hover {
 }
 
 .row1_part {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .row2_part {
+    margin-top: 60px;
+}
+
+.row2_part {
+    margin-top: 60px;
+    padding-left: 80px;
+}
+
+
+.row3_part_inf {
     margin-top: 60px;
 }
 
@@ -610,16 +620,27 @@ a.link_map:hover {
     margin-top: 40px;
 }
 
-@media only screen and (max-width:768px) {
-	.row2_part {
-    margin-top: 60px;
-    padding-left: 0;
-}
-}
-
 @media only screen and (max-width:1200px) {
 	.row2_part {
     margin-top: 30px;
+}
+
+.row3_part_inf {
+    margin-top: 30px;
+}
+}
+
+@media only screen and (max-width:992px) {
+.row2_part {
+
+    padding-left: 60px;
+
+}
+}
+
+@media only screen and (max-width:768px) {
+	.row2_part {
+    padding-left: 0;
 }
 }
 
@@ -979,7 +1000,7 @@ a.link_map:hover {
     padding: 5px;
 }
 
-.text3_sect11 span:hover {
+.bord_soc:hover, .bord_soc2:hover {
     background-color: #396C97;
     border: 1px solid #396C97;
 }
