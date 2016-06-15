@@ -1000,7 +1000,7 @@ a.link_map:hover {
     padding: 5px;
 }
 
-.text3_sect11 span:hover {
+.bord_soc:hover, .bord_soc2:hover {
     background-color: #396C97;
     border: 1px solid #396C97;
 }
