@@ -319,7 +319,7 @@ jQuery(document).ready(function($){
     //get the values from data attributes
     var cbxcountdown = $('#cbxcountdown');
     var countdown_year  = cbxcountdown.data('year');
-    var countdown_month = cbxcountdown.data('month');
+    var countdown_month = cbxcountdown.data('month') - 1;
     var countdown_day   = cbxcountdown.data('day');
 
     // -------------------------------------------------------------
