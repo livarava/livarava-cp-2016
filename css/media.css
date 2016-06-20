@@ -125,9 +125,7 @@ a.link_map {
     font: 18px OpenSansItalic, sans-serif;
 }
 
-.box1_bil {
-    padding-left: 30px;
-}
+
 }
 
 @media only screen and (max-width:1150px) {
@@ -546,9 +544,7 @@ a.link_map {
     font: 26px OpenSansBold, sans-serif;
 }
 
-.box1_bil {
-    padding-left: 0;
-}
+
 
 .row2_sect8 {
     margin-top: 20px;
