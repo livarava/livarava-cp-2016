@@ -1,2 +1,2 @@
-# livarava-cp
-LivaRava CP 2016
+# LivaRava Confparty 2016
+LivaRava Confparty 2016 Website
